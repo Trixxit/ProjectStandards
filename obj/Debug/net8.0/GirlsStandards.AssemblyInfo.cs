@@ -17,7 +17,7 @@ using System.Reflection;
     "r non-celeste participants to use -- I\'ve attempted to make it as generalised as" +
     " possible. Send me feedback on discord: _dissociation_")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+f539a055c6155619245c65c82165c72ec882e674")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+c2a9bb4cd42fe3127102918d67446457c4ad7cc4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Standard Library")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GirlsStandards")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.0")]
