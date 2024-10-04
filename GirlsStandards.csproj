@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+	<AssemblyName>GirlsStandards</AssemblyName>
+	<RootNamespace>GirlsStandards</RootNamespace>
+	<Version>1.0.1</Version>
+	<PackageId>CelestesCommons</PackageId>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <SignAssembly>False</SignAssembly>
+    <Title>Girl's Standard Library for Celeste's Sub-modules</Title>
+	<Product>Standard Library</Product>
+	<Description>A crossplatform, standard library for CELESTE and her submodules to use. Happy for non-celeste participants to use -- I've attempted to make it as generalised as possible. Send me feedback on discord: _dissociation_</Description>
+    <Authors>Dissociation</Authors>
+    <OutputType>Library</OutputType> 
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageReleaseNotes>
+		- Minor fixes
+	</PackageReleaseNotes>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="App.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <AvaloniaResource Include="App.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="11.2.0-beta1" />
+    <PackageReference Include="Avalonia.Desktop" Version="11.2.0-beta1" />
+    <PackageReference Include="Avalonia.ReactiveUI" Version="11.2.0-beta1" />
+    <PackageReference Include="Avalonia.Themes.Fluent" Version="11.2.0-beta1" />
+  </ItemGroup>
+
+</Project>
